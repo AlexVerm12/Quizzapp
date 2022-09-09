@@ -1,15 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
- 
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
     <script src="script.js"></script>
     <title>Quizzapp</title>
-</head>
-<body>
-    hallo
-</body>
+    <!--Bootstrap file-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav class="navbar bg-light">
+      <div class="container-fluid">
+        <span class="navbar-brand mb-0 h1">Quizzapp</span>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="card quiz-card">
+        <img src="img/quiz.png" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Frage</h5>
+
+          <div class="card mb-2">
+            <div class="card-body">Antwort</div>
+          </div>
+
+          <div class="card mb-2">
+            <div class="card-body">Antwort</div>
+          </div>
+
+          <div class="card mb-2">
+            <div class="card-body">Antwort</div>
+          </div>
+
+          <div class="card mb-2">
+            <div class="card-body">Antwort</div>
+          </div>
+
+          <div class="question-footer">
+            <span> <b>1</b> von <b>5</b> Fragen </span>
+            <button  class="btn btn-warning">Nächste Frage</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
