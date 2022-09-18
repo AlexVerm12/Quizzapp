@@ -32,3 +32,41 @@ body{
 .bg-danger{
     color: white;
 }
+
+.width-100{
+    width: 100%;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.headline-endscreen{
+    font-size: 38px;
+    margin-bottom: 24px;
+}
+
+.progress{
+    --bs-progress-border-radius: 0rem !important;
+}
+
+.button-row{
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+@media (max-width:479px) {
+    .navbar{ 
+        display: none !important;
+    }
+
+    .container {
+        height: 100vh !important;
+        width: 100vw !important;
+        display: flex;
+        align-items: unset !important;
+        justify-content: unset !important;
+        --bs-gutter-x: 0rem !important;
+    }
+}
